@@ -8,4 +8,9 @@ for char in user_input:
     else:
         lowercase_user_input += char
 # check if the statement is the same as the converted one
+if user_input == lowercase_user_input:
 # print result
+    print("The statement is in lowercase")
+else:
+# print result
+    print("The statement is not in lowercase")
